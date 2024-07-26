@@ -1,0 +1,32 @@
+.heatmap-legend {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: Arial, sans-serif;
+  z-index: 1000; /* Ensure it's above the map */
+}
+
+.heatmap-legend h4 {
+  margin: 0 0 5px;
+}
+
+.heatmap-legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.heatmap-legend div:last-child {
+  margin-bottom: 0;
+}
+
+.heatmap-legend span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

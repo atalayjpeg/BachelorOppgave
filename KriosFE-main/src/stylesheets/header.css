@@ -1,0 +1,37 @@
+.login-btn .login-btn-tooltip {
+    visibility: hidden;
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    scale: 0.7;
+  }
+
+  .login-btn:hover .login-btn-tooltip {
+    visibility: visible;
+  }
+
+  .logout-btn .logout-btn-tooltip {
+    visibility: hidden;
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    scale: 0.7;
+  }
+
+  .logout-btn:hover .logout-btn-tooltip {
+    visibility: visible;
+  }
